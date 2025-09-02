@@ -18,6 +18,7 @@ body {
   height: 100vh;
   width: 100%;
   margin: 0px;
+  position: relative;
 }
 
 footer {
@@ -28,14 +29,12 @@ footer {
 }
 
 header {
-  background-color: aliceblue;
-  height: auto;
+  height: 100px;
   position: sticky;
-  top: 0;
   width: 100%;
-  max-width: 1700px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  background-image: url(https://panoramagriego.press.mfa.gr/wp-content/uploads/sites/5/2017/02/vasilhs-theoxarakhs-antara.jpg);
+
 }
 
 .barra {
@@ -46,13 +45,16 @@ header {
 
 .barra img {
   height: 80px;
-  width: 200px;
+  width: 300px;
+  line-height: 100px;
+  margin-left: 15px;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   gap: 30px;
+  line-height: 100px;
 }
 
 nav ul li {
@@ -61,11 +63,12 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 25px;
   font-family: "IM Fell DW Pica SC", serif;
   font-weight: 600;
   margin-right: 20px;
+  text-shadow: black 1px 2px 1px;
 }
 
 nav ul li a:hover {
@@ -82,11 +85,11 @@ nav ul li a:hover {
 }
 
 main {
-  background-color: aliceblue;
   height: auto;
   margin-bottom: auto;
   width: 1700px;
   margin: auto;
+  background-color: aliceblue;
 }
 
 h1 {
@@ -96,7 +99,6 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 600;
   margin-left: 40px;
-  margin-bottom: 10px;
   /*border: black 2px solid;*/
 }
 
@@ -264,32 +266,75 @@ h7 {
   text-align: center;
   /*border: 2px solid black;*/
   display: block;
+  background-color: #9db6db;
 }
 
 /*fin de la primera pagina*/
 /*segunda pagina*/
 .container1 {
-  /*background-color: brown;*/
-  /*border: black 2px solid;*/
   height: auto;
 }
-
-.container1 h3 {
+.container1 #troya {
   font-size: 30px;
   font-weight: 600;
   font-family: "IM Fell DW Pica SC", serif;
-  color: black;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 2px 3px 2px;
   text-align: center;
   margin-top: 12px;
-  margin-bottom: 12px;
+  background-color: #cf7343;
 }
-
+.container1 #oceano {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "IM Fell DW Pica SC", serif;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 2px 3px 2px;
+  text-align: center;
+  margin-top: 12px;
+  background-color: #053147;
+}
+.container1 #inframundo {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "IM Fell DW Pica SC", serif;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 2px 3px 2px;
+  text-align: center;
+  margin-top: 12px;
+  background-color: #192628;
+}
+.container1 #sabiduria {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "IM Fell DW Pica SC", serif;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 2px 3px 2px;
+  text-align: center;
+  margin-top: 12px;
+  background-color: #050419;
+}
+.container1 #Itaca {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "IM Fell DW Pica SC", serif;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 2px 3px 2px;
+  text-align: center;
+  margin-top: 12px;
+  background-color: #a21419;
+}
 .container1 img {
   width: 450px;
   height: 450px;
   margin-left: 80px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.container1 img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 .container1-text {
@@ -300,7 +345,7 @@ h7 {
   height: auto;
   width: 1060px;
   float: right;
-  margin-top: 35px;
+  margin-top: 25px;
   margin-right: 50px;
 }
 
@@ -319,7 +364,7 @@ h7 {
   font-size: 19px;
   width: 500px;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 5px;
   /* border: black 2px solid;*/
   text-decoration: underline;
@@ -334,7 +379,7 @@ h7 {
 
 .container1-text ul li a {
   font-family: "Texturina", serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 17px;
   margin-left: 40px;
   color: black;
@@ -344,23 +389,52 @@ h7 {
 .container1-text ul li a:hover {
   color: rgb(11, 5, 99);
 }
-
 .container2 {
   /*background-color: red;*/
   /*border: black 2px solid;*/
   height: auto;
 }
 
-.container2 h3 {
+.container2 #ciclopes {
   font-size: 30px;
   font-weight: 600;
   font-family: "IM Fell DW Pica SC", serif;
-  color: black;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 2px 3px 2px;
   text-align: center;
   margin-top: 12px;
-  margin-bottom: 12px;
+  background-color: #69110a;
 }
-
+.container2 #circe {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "IM Fell DW Pica SC", serif;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 2px 3px 2px;
+  text-align: center;
+  margin-top: 12px;
+  background-color: #f06fdd;
+}
+.container2 #trueno {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "IM Fell DW Pica SC", serif;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 2px 3px 2px;
+  text-align: center;
+  margin-top: 12px;
+  background-color: #cc7822;
+}
+.container2 #venganza {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "IM Fell DW Pica SC", serif;
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 2px 3px 2px;
+  text-align: center;
+  margin-top: 12px;
+  background-color: #22747b;
+}
 .container2 img {
   width: 450px;
   height: 450px;
@@ -368,7 +442,10 @@ h7 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+.container2 img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
 .container2-text {
   /*border: rgb(185, 16, 16) 2px solid;*/
   display: flex;
@@ -377,7 +454,7 @@ h7 {
   height: auto;
   width: 1060px;
   float: left;
-  margin-top: 35px;
+  margin-top: 25px;
   margin-left: 80px;
 }
 
@@ -396,7 +473,7 @@ h7 {
   font-size: 19px;
   width: 1020px;
   text-align: right;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 5px;
   /*border: black 2px solid;*/
   text-decoration: underline;
@@ -673,13 +750,16 @@ h7 {
   /*border: 2px solid rgb(236, 0, 0);*/
   width: 1600px;
   margin: auto;
+  margin-top: 5px;
 }
 
 .maincast-text {
   /*border: 2px solid rgb(0, 236, 79);   */
   display: flex;
+  width: 1400px;
   flex-direction: column;
   text-align: center;
+  margin: auto;
 }
 
 .maincast-text p {
@@ -697,6 +777,9 @@ h7 {
   font-family: "Texturina", serif;
   font-weight: 600;
   font-size: 19px;
+  color: #ffffff;
+  background-color: #185381;
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
 }
 
 .jorge {
@@ -704,13 +787,19 @@ h7 {
   width: 1600px;
   margin: auto;
   display: grid;
-  grid-template-columns: 500px 500px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  grid-template-columns: 400px 400px;
   justify-content: space-around;
 }
 
 .jorge img {
   width: 420px;
   height: 450px;
+}
+.jorge img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
 
 /*fin de la cuarta pagina*/
@@ -820,59 +909,6 @@ h7 {
   margin-bottom: 5px;
 }
 
-.diff3 {
-  /*border: red 2px solid;*/
-  width: 1600px;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.diff3 .diff-text3 {
-  display: flex;
-  flex-direction: column; /* Apila el p, h6 y ul */
-  gap: 10px;
-  float: right;
-}
-
-.diff3 .diff-text3 p {
-  /*border: #00ffd5 2px solid;*/
-  width: 1060px;
-  text-align: justify;
-  font-family: "Texturina", serif;
-  font-weight: 600;
-  font-size: 19px;
-  margin-right: 50px;
-  margin-top: 15px;
-}
-
-.diff3 .diff-text3 ul {
-  /*border: #00ffd5 2px solid;*/
-  list-style: none;
-  width: 1030px;
-  margin-left: 20px;
-}
-
-.diff3 .diff-text3 ul li {
-  /*border: #b700ff 2px solid;*/
-  text-align: left;
-  text-decoration: none;
-  color: black;
-  font-size: 17px;
-  font-family: "Texturina", serif;
-  font-weight: 600;
-  width: 1030px;
-  text-align: justify;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.diff3 iframe {
-  width: 500px;
-  height: 300px;
-  margin-top: 28px;
-}
-
 .videos {
   /*border: #00ffd5 2px solid;*/
   width: 1600px;
@@ -885,4 +921,319 @@ h7 {
 
 /*fin de la quinta pagina*/
 
-/*# sourceMappingURL=style.css.map */
+.gif-volando {
+    position: absolute;
+    width: 150px;
+    animation: volar 5s linear infinite;
+}
+
+@keyframes volar {
+    0% { left: 0; top: 50px; }
+    100% { left: 100%; top: 50px; }
+}
+/*-----------------------MEDIAQUIRE-----------------------*/
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 28px;
+    margin-left: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  header {
+    height: 70px;
+  }
+
+  .barra {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .barra img {
+    height: 50px;
+    width: auto;
+    margin-left: 0;
+  }
+  nav ul {
+    display: flex;    
+    flex-wrap: wrap;    
+    gap: 10px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    margin-right: 0;
+  }
+  main {
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+}
+/*-----------------------MEDIAQUIRE PRIMERA PAGINA-----------------------*/ 
+
+@media (max-width: 700px) {
+
+  .lyp, .vyp, .vyp2, .nw {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 15px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .lyp img, .nw img {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .vyp iframe, .vyp2 iframe {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .lyp-text, .vyp-text, .vyp2-text, .nw-text {
+    width: 95%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: justify;
+  }
+
+  .lyp-text p, .vyp-text p, .vyp2-text p, .nw-text p {
+    width: 95%;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 5px;
+  }
+  h7 {
+    font-size: 20px;
+  }
+}
+/*-----------------------MEDIAQUIRE SEGUNDA PAGINA-----------------------*/ 
+
+@media (max-width: 768px) {
+
+  .container1,
+  .container2 {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .container1 img,
+  .container2 img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .container1-text,
+  .container2-text {
+    width: 100%;
+    float: none;
+    margin: 15px auto;
+    padding: 0 10px;
+  }
+
+  .container1-text p,
+  .container2-text p,
+  .container1-text h4,
+  .container2-text h4,
+  .container1-text ul,
+  .container2-text ul {
+    width: 100%;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .container1-text ul li a,
+  .container2-text ul li a {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+}
+
+/*-----------------------MEDIAQUIRE TERCERA PAGINA-----------------------*/ 
+
+@media (max-width: 768px) {
+
+  #p1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+  .ml,
+  .ml2,
+  .leit,
+  .leit2 {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .ml p,
+  .ml2 p,
+  .leit .texto p,
+  .leit2 .texto p,
+  .leit .texto h6,
+  .leit2 .texto h6,
+  .leit .texto ul li,
+  .leit2 .texto ul li {
+    width: 100%;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .ml img,
+  .ml2 img,
+  .leit iframe,
+  .leit2 iframe {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    display: block;
+  }
+
+  .leit .texto,
+  .leit2 .texto {
+    float: none;
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+/*-----------------------MEDIAQUIRE CUARTA PAGINA-----------------------*/ 
+
+@media (max-width: 768px) {
+
+  .comun,
+  .maincast,
+  .jorge {
+    width: 100%;
+    max-width: 700px;
+    margin: 15px auto;
+    display: block;
+  }
+
+  .comun {
+    gap: 15px;
+    text-align: center;
+  }
+
+  .comun img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .comun-texto {
+    width: 100%;
+    text-align: justify;
+    padding: 0 10px;
+  }
+
+  .comun-texto p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  .maincast-text {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .maincast-text p {
+    font-size: 16px;
+  }
+
+  .maincast-text h6 {
+    font-size: 17px;
+    padding: 5px;
+  }
+
+  .jorge {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .jorge img {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+  }
+}
+
+/*-----------------------MEDIAQUIRE QUINTA PAGINA-----------------------*/ 
+
+@media (max-width: 768px) {
+
+  .diff,
+  .diff2,
+  .videos {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .diff img,
+  .diff2 img {
+    width: 50%;
+    height: auto;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .diff .diff-text,
+  .diff2 .diff-text2 {
+    float: none;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .diff .diff-text p,
+  .diff2 .diff-text2 p,
+  .diff .diff-text ul,
+  .diff2 .diff-text2 ul,
+  .diff .diff-text ul li,
+  .diff2 .diff-text2 ul li {
+    width: 100%;
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 0;
+  }
+
+  .videos {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .videos iframe {
+    width: 100%;
+    height: auto;
+  }
+}
